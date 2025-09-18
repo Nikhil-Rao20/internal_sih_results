@@ -174,12 +174,6 @@ export default function SIHResults() {
               <CardDescription className="text-xs md:text-sm">Idea Presentations</CardDescription>
             </CardHeader>
           </Card>
-          <Card>
-            <CardHeader className="pb-2">
-              <CardTitle className="text-xl md:text-2xl font-bold text-primary">2025</CardTitle>
-              <CardDescription className="text-xs md:text-sm">Competition Year</CardDescription>
-            </CardHeader>
-          </Card>
         </div>
 
         {/* Problem Statement Analysis */}
