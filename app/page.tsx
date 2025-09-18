@@ -30,7 +30,7 @@ const resultsData = [
   { rank: 18, teamName: "StrawWhats_RGUKTN", leader: "DIVIJA", psId: "SIH25008" },
   { rank: 19, teamName: "Arch Sparks_RGUKTN", leader: "M. Yuktesh", psId: "SIH25098" },
   { rank: 20, teamName: "IGNOVA_RGUKTN", leader: "AFSHEEN MOHAMMAD", psId: "SIH25061" },
-  { rank: 21, teamName: "VEGAVERSE _RGUKTN", leader: "SUDHARSHAN PAUL GANTA", psId: "SIH25073" },
+  { rank: 21, teamName: "DYNAMO_RGUKTN", leader: "A SANKAR CHAITANYA", psId: "SIH25073" },
   { rank: 22, teamName: "RUNTIME_REBELS_RGUKTN", leader: "MUMMANA RAKESH", psId: "SIH25081,SIH25083" },
   { rank: 23, teamName: "ALGOGANG_RGUKTN", leader: "MUNESHWAR AKASH", psId: "SIH25039,SIH25040" },
   { rank: 24, teamName: "CRAZYCODERS_RGUKTN", leader: "P. NAVYA SRI", psId: "SIH25139" },
