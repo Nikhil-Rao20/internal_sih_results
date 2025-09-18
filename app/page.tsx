@@ -416,7 +416,7 @@ export default function SIHResults() {
       {/* Hackhub Thank You Note */}
       <div className="container mx-auto px-4 text-center mt-12">
         <div className="flex flex-col items-center justify-center mb-6">
-          <Image src="/hackhub_white.jpg" alt="Hackhub Club Logo" width={60} height={60} className="rounded-lg mb-2" />
+          <Image src="/hackhub_white.jpg" alt="Hackhub Club Logo" className="rounded-lg mb-2" />
           <h3 className="text-lg md:text-xl font-bold text-primary mb-2">Hackhub - Coded for Hackathons</h3>
           <p className="text-sm md:text-base text-muted-foreground mb-2">Head: Srinivasu Ch</p>
           <p className="text-base md:text-lg font-semibold text-primary">Thank you to Hackhub Club for organizing and supporting the Smart India Hackathon 2025 Internal Hackathon at RGUKT Nuzvid. Your dedication and efforts made this event a grand success!</p>
