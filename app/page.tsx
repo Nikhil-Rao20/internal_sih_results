@@ -148,17 +148,13 @@ export default function SIHResults() {
           </Card>
           <Card>
             <CardHeader className="pb-2">
-              <CardTitle className="text-xl md:text-2xl font-bold text-primary">
-                {new Set(resultsData.flatMap((team) => team.psId.split(","))).size}
-              </CardTitle>
+              <CardTitle className="text-xl md:text-2xl font-bold text-primary">135</CardTitle>
               <CardDescription className="text-xs md:text-sm">Problem Statements</CardDescription>
             </CardHeader>
           </Card>
           <Card>
             <CardHeader className="pb-2">
-              <CardTitle className="text-xl md:text-2xl font-bold text-primary">
-                {new Set(resultsData.map((team) => team.leader)).size}
-              </CardTitle>
+              <CardTitle className="text-xl md:text-2xl font-bold text-primary">200+</CardTitle>
               <CardDescription className="text-xs md:text-sm">Team Leaders</CardDescription>
             </CardHeader>
           </Card>
