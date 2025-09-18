@@ -58,7 +58,7 @@ const resultsData = [
   { rank: 46, teamName: "CODERS4EARTH_RGUKTN", leader: "K PARDHASARADHI", psId: "SIH25031" },
   { rank: 47, teamName: "BAMBOOCOPTER_RGUKTN", leader: "REPUDI ARISTOTLE", psId: "SIH25117" },
   { rank: 48, teamName: "INNOVENTURES_RGUKTN", leader: "D PAVITHRA", psId: "SIH25036" },
-  { rank: 49, teamName: "QUAKE-X_RGUKTN", leader: "SHANMUKHA VARDHAN PYLA", psId: "SIH25084" },
+  { rank: 49, teamName: "ALGOGANG_RGUKTN", leader: "MUNESHWAR AKASH", psId: "SIH25039" },
   { rank: 50, teamName: "ASTRAMINDS_RGUKTN", leader: "EESALEE HARIDASU", psId: "SIH25043" },
 ]
 
@@ -330,6 +330,23 @@ export default function SIHResults() {
           </CardHeader>
           <CardContent>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              {/* Dean of Academics */}
+              <div className="space-y-4">
+                <h4 className="font-semibold text-primary text-sm md:text-base">Dean of Academics</h4>
+                <div className="flex items-center space-x-4">
+                  <Image
+                    src="https://media.licdn.com/dms/image/v2/D5603AQGMEQ3tiC60IQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1714803123003?e=1761177600&v=beta&t=sgYXsOlzVaYGO2ZuVM454dWDT5voboOOLuXez8rjo1c"
+                    alt="Dr. Chiranjeevi Sadu"
+                    width={60}
+                    height={60}
+                    className="rounded-full border-2 border-primary/20"
+                  />
+                  <div className="space-y-2">
+                    <div className="font-medium text-sm md:text-base">Dr. Chiranjeevi Sadu</div>
+                    <div className="text-xs md:text-sm text-muted-foreground">Dean of Academics, RGUKT Nuzvid</div>
+                  </div>
+                </div>
+              </div>
               {/* Single Point of Contact */}
               <div className="space-y-4">
                 <h4 className="font-semibold text-primary text-sm md:text-base">Single Point of Contact</h4>
@@ -386,6 +403,24 @@ export default function SIHResults() {
       </main>
 
       {/* Footer */}
+      {/* Hackhub Thank You Note */}
+      <div className="container mx-auto px-4 text-center mt-12">
+        <div className="flex flex-col items-center justify-center mb-6">
+          <Image src="/rgukt-logo.png" alt="Hackhub Club Logo" width={60} height={60} className="rounded-lg mb-2" />
+          <h3 className="text-lg md:text-xl font-bold text-primary mb-2">Hackhub - Coded for Hackathons</h3>
+          <p className="text-sm md:text-base text-muted-foreground mb-2">Head: Srinivasu Ch</p>
+          <p className="text-base md:text-lg font-semibold text-primary">Thank you to Hackhub Club for organizing and supporting the Smart India Hackathon 2025 Internal Hackathon at RGUKT Nuzvid. Your dedication and efforts made this event a grand success!</p>
+        </div>
+      </div>
+      {/* Non-selected Teams Note */}
+      <div className="container mx-auto px-4 text-center mb-8">
+        <div className="bg-muted/30 rounded-lg p-6 md:p-8">
+          <h4 className="text-lg md:text-xl font-bold text-primary mb-2">Note for Non-Selected Teams</h4>
+          <p className="text-base md:text-lg text-muted-foreground">
+            Selecting the top 50 teams from 210 presentations in the Internal Hackathon for Smart India Hackathon 2025 was a truly challenging task. With participants working on diverse themes and problem statements, the jury had to consider multiple factors—such as average scores, relevance of problem statements, number of teams attempting similar ideas, financial feasibility for building hardware or IoT prototypes, and many more. After much effort, the top 50 teams were shortlisted. We realized that while organizing such an event is itself a huge challenge, judging and bringing out the very best ideas is even more demanding. The remaining promising teams will also be considered for other opportunities and recommended for future project expos like Teckzite 2025 and other external expos.
+          </p>
+        </div>
+      </div>
       <footer className="bg-primary text-primary-foreground py-6 md:py-8 mt-8 md:mt-12">
         <div className="container mx-auto px-4 text-center">
           <p className="text-base md:text-lg font-semibold mb-2">
