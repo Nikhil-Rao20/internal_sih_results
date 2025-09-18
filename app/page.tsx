@@ -32,7 +32,7 @@ const resultsData = [
   { rank: 20, teamName: "IGNOVA_RGUKTN", leader: "AFSHEEN MOHAMMAD", psId: "SIH25061" },
   { rank: 21, teamName: "IGNOVA_RGUKTN", leader: "AFSHEEN MOHAMMAD", psId: "SIH25061" },
   { rank: 22, teamName: "RUNTIME_REBELS_RGUKTN", leader: "MUMMANA RAKESH", psId: "SIH25081,SIH25083" },
-  { rank: 23, teamName: "ALGOGANG_RGUKTN", leader: "MUNESHWAR AKASH", psId: "SIH25039" },
+  { rank: 23, teamName: "ALGOGANG_RGUKTN", leader: "MUNESHWAR AKASH", psId: "SIH25039,SIH25040" },
   { rank: 24, teamName: "CRAZYCODERS_RGUKTN", leader: "P. NAVYA SRI", psId: "SIH25139" },
   { rank: 25, teamName: "VISIONARY MINDS_RGUKTN", leader: "B.SATISH", psId: "SIH25044" },
   { rank: 26, teamName: "METAMINDS_RGUKTN", leader: "IMANDI PRASANNA", psId: "SIH25031" },
@@ -51,14 +51,14 @@ const resultsData = [
   { rank: 39, teamName: "TARA_RGUKTN", leader: "DURGA RAMA KRISHNA KAPA", psId: "SIH25049" },
   { rank: 40, teamName: "DATA PIRATES", leader: "M. SOWMYA", psId: "SIH25071" },
   { rank: 41, teamName: "INNOVEXA_RGUKTN", leader: "G.POORNENDRA SREERAJU", psId: "SIH25026" },
-  { rank: 42, teamName: "ALGOGANG_RGUKTN", leader: "MUNESHWAR AKASH", psId: "SIH25040" },
+  { rank: 42, teamName: "NEURONOVA_RGUKTN", leader: "VANKA PRAM CHAND", psId: "SIH12508" },
   { rank: 43, teamName: "AVENGERS_RGUKTN", leader: "ENDLURU MANASA", psId: "SIH25081" },
   { rank: 44, teamName: "SMART INNOVATORS_RGUKTN", leader: "S PHANINDRA RAMA KRISHNA", psId: "SIH25051" },
   { rank: 45, teamName: "JERN_RGUKTN", leader: "KARA RANJIT KUMAR", psId: "SIH25021" },
   { rank: 46, teamName: "CODERS4EARTH_RGUKTN", leader: "K PARDHASARADHI", psId: "SIH25031" },
   { rank: 47, teamName: "BAMBOOCOPTER_RGUKTN", leader: "REPUDI ARISTOTLE", psId: "SIH25117" },
   { rank: 48, teamName: "INNOVENTURES_RGUKTN", leader: "D PAVITHRA", psId: "SIH25036" },
-  { rank: 49, teamName: "ALGOGANG_RGUKTN", leader: "MUNESHWAR AKASH", psId: "SIH25039" },
+  { rank: 49, teamName: "NovaSparks_RGUKTN", leader: "Subash Reddy Balupunuri", psId: "SIH12508" },
   { rank: 50, teamName: "ASTRAMINDS_RGUKTN", leader: "EESALEE HARIDASU", psId: "SIH25043" },
 ]
 
@@ -109,7 +109,8 @@ export default function SIHResults() {
       {/* Header */}
       <header className="bg-primary text-primary-foreground py-4 md:py-6 shadow-lg">
         <div className="container mx-auto px-4">
-          <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-6">
+          <div className="flex flex-col sm:flex-row items-center justify-between space-y-4 sm:space-y-0 sm:space-x-6">
+            {/* Left: RGUKT Logo */}
             <Image
               src="/rgukt-logo.png"
               alt="RGUKT Logo"
@@ -117,7 +118,8 @@ export default function SIHResults() {
               height={60}
               className="sm:w-20 sm:h-20 rounded-lg"
             />
-            <div className="text-center">
+            {/* Center: Title */}
+            <div className="text-center flex-1">
               <h1 className="text-lg sm:text-2xl md:text-3xl font-bold text-balance leading-tight">
                 Rajiv Gandhi University of Knowledge Technologies - Andhra Pradesh, Nuzvid Campus
               </h1>
@@ -125,6 +127,14 @@ export default function SIHResults() {
                 Catering to the Educational Needs of Gifted Rural Youth of Andhra Pradesh
               </p>
             </div>
+            {/* Right: SIH Image */}
+            <Image
+              src="https://i0.wp.com/opportunitycell.com/wp-content/uploads/2022/03/SIH2.png?fit=327%2C345&ssl=1"
+              alt="Smart India Hackathon Logo"
+              width={60}
+              height={60}
+              className="sm:w-20 sm:h-20 rounded-lg"
+            />
           </div>
         </div>
       </header>
