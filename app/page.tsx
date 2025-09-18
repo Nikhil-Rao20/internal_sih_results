@@ -342,7 +342,7 @@ export default function SIHResults() {
                     className="rounded-full border-2 border-primary/20"
                   />
                   <div className="space-y-2">
-                    <div className="font-medium text-sm md:text-base">Srinivasu</div>
+                    <div className="font-medium text-sm md:text-base">Srinivasu Ch</div>
                     <div className="flex items-center space-x-2">
                       <Mail className="h-4 w-4 text-muted-foreground" />
                       <a
@@ -360,14 +360,14 @@ export default function SIHResults() {
                 <h4 className="font-semibold text-primary text-sm md:text-base">Lead Organiser</h4>
                 <div className="flex items-center space-x-4">
                   <Image
-                    src="https://media.licdn.com/dms/image/v2/D5603AQFe3vOw_HlzUg/profile-displayphoto-shrink_400_400/B56Zhg8hdDG0Ak-/0/1753973136417?e=1761177600&v=beta&t=ddIUnhaj5BJBENl0I5HILc5kPnegY_VKOkRgfYEusx"
-                    alt="Nikhil Rao"
+                    src="https://media.licdn.com/dms/image/v2/D5603AQFe3vOw_HlzUg/profile-displayphoto-shrink_400_400/B56Zhg8hdDG0Ak-/0/1753973136417?e=1761177600&v=beta&t=ddIUnhaj5BJBENl0I5HILc5kPnegY_VKOkRgfYEusxc"
+                    alt="Nikhileswara Rao Sulake"
                     width={60}
                     height={60}
                     className="rounded-full border-2 border-primary/20"
                   />
                   <div className="space-y-2">
-                    <div className="font-medium text-sm md:text-base">Nikhil Rao</div>
+                    <div className="font-medium text-sm md:text-base">Nikhileswara Rao Sulake</div>
                     <div className="flex items-center space-x-2">
                       <Mail className="h-4 w-4 text-muted-foreground" />
                       <a
