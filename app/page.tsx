@@ -153,7 +153,7 @@ export default function SIHResults() {
           <Card>
             <CardHeader className="pb-2">
               <CardTitle className="text-xl md:text-2xl font-bold text-primary">50</CardTitle>
-              <CardDescription className="text-xs md:text-sm">Total Teams</CardDescription>
+              <CardDescription className="text-xs md:text-sm">Shortlisted Teams</CardDescription>
             </CardHeader>
           </Card>
           <Card>
@@ -164,8 +164,14 @@ export default function SIHResults() {
           </Card>
           <Card>
             <CardHeader className="pb-2">
-              <CardTitle className="text-xl md:text-2xl font-bold text-primary">200+</CardTitle>
-              <CardDescription className="text-xs md:text-sm">Team Leaders</CardDescription>
+              <CardTitle className="text-xl md:text-2xl font-bold text-primary">185+</CardTitle>
+              <CardDescription className="text-xs md:text-sm">Teams Participated</CardDescription>
+            </CardHeader>
+          </Card>
+          <Card>
+            <CardHeader className="pb-2">
+              <CardTitle className="text-xl md:text-2xl font-bold text-primary">210+</CardTitle>
+              <CardDescription className="text-xs md:text-sm">Idea Presentations</CardDescription>
             </CardHeader>
           </Card>
           <Card>
@@ -354,6 +360,15 @@ export default function SIHResults() {
                   <div className="space-y-2">
                     <div className="font-medium text-sm md:text-base">Dr. Chiranjeevi Sadu</div>
                     <div className="text-xs md:text-sm text-muted-foreground">Dean of Academics, RGUKT Nuzvid</div>
+                    <div className="flex items-center space-x-2">
+                      <Mail className="h-4 w-4 text-muted-foreground" />
+                      <a
+                        href="mailto:vasuch9959@rguktn.ac.in"
+                        className="text-primary hover:underline text-sm md:text-base"
+                      >
+                        schiranjeevi@rguktn.ac.in
+                      </a>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -370,6 +385,7 @@ export default function SIHResults() {
                   />
                   <div className="space-y-2">
                     <div className="font-medium text-sm md:text-base">Srinivasu Ch</div>
+                    <div className="text-xs md:text-sm text-muted-foreground">Assistant Professor (CSE), Associate TPO (Internships)</div>
                     <div className="flex items-center space-x-2">
                       <Mail className="h-4 w-4 text-muted-foreground" />
                       <a
@@ -395,6 +411,7 @@ export default function SIHResults() {
                   />
                   <div className="space-y-2">
                     <div className="font-medium text-sm md:text-base">Nikhileswara Rao Sulake</div>
+                    <div className="text-xs md:text-sm text-muted-foreground">Undergrad CSE</div>
                     <div className="flex items-center space-x-2">
                       <Mail className="h-4 w-4 text-muted-foreground" />
                       <a
